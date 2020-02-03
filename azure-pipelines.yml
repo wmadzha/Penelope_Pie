@@ -35,6 +35,18 @@ steps:
     archiveType: 'zip'
     archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
     replaceExistingArchive: true
+
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM'
+    azureSubscription: 'Pay-As-You-Go (b5e925e2-a832-461b-876c-6e2af210b9cf)'
+    appType: 'webApp'
+    WebAppName: 'penelopepiegithubrelease'
+    deployToSlotOrASE: true
+    ResourceGroupName: 'Adzha'
+    SlotName: 'production'
+    packageForLinux: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+
 - task: VSTest@2
   inputs:
     platform: '$(buildPlatform)'
