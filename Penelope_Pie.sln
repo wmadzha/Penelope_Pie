@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PenelopePie.AspNetCore.AngularStatic", "PenelopePie.AspNetCore.AngularStatic\PenelopePie.AspNetCore.AngularStatic.csproj", "{F169A20C-1851-4FA3-A621-5B4B0F3C8523}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PemelopePie.Model", "PemelopePie.Model\PemelopePie.Model.csproj", "{22DD28A0-0A1A-42B8-A24D-9DE2C82CE34C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PenelopePie.Model", "PenelopePie.Model\PenelopePie.Model.csproj", "{D85C67DB-C6D1-4847-8F8B-9EE068486A5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{F169A20C-1851-4FA3-A621-5B4B0F3C8523}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F169A20C-1851-4FA3-A621-5B4B0F3C8523}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F169A20C-1851-4FA3-A621-5B4B0F3C8523}.Release|Any CPU.Build.0 = Release|Any CPU
-		{22DD28A0-0A1A-42B8-A24D-9DE2C82CE34C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{22DD28A0-0A1A-42B8-A24D-9DE2C82CE34C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{22DD28A0-0A1A-42B8-A24D-9DE2C82CE34C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{22DD28A0-0A1A-42B8-A24D-9DE2C82CE34C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D85C67DB-C6D1-4847-8F8B-9EE068486A5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D85C67DB-C6D1-4847-8F8B-9EE068486A5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D85C67DB-C6D1-4847-8F8B-9EE068486A5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D85C67DB-C6D1-4847-8F8B-9EE068486A5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
